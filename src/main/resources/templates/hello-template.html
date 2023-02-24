@@ -1,0 +1,9 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+<!--
+hello! empty는 서버 연결 없이 파일을 볼 때 보여주는 텍스트
+parameter로 받은 name을 model안에 넣고 model을 전달해주면 hello name으로 나온다.
+-->
+</body>
+</html>
