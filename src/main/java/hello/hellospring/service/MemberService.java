@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service//service안에는 component가 들어있음
+//@Service//service안에는 component가 들어있음
 public class MemberService {
 
     private final MemberRepository memberRepository;

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository//component가 들어있음(컴포넌트 스캔)
+//@Repository//component가 들어있음(컴포넌트 스캔)
 public class MemoryMemberRepository implements  MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>();
